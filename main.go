@@ -21,7 +21,8 @@ func main(){
 	sort.Ints(ages)
 
 	fmt.Println(ages)
-
+index := sort.SearchInts(ages, 30)
+fmt.Println(index)
 
 
 
