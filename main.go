@@ -1,16 +1,26 @@
 package main
-import "fmt"
+import (
+	"fmt"
+	"sort"
+)
 
 func main(){
 
 	// variable
 	// var nameOne string = "mike"//main.go
 
-	nameOne := "mikee"
+	// nameOne := "mikee"
 
-	var nameTwo = "Mike"
+	// var nameTwo = "Mike"
 
-	fmt.Println(nameOne, nameTwo)
+	// fmt.Println(nameOne, nameTwo)
+
+
+	ages := []int{20, 49, 30, 38, 89, 43}
+
+	sort.Ints(ages)
+
+	fmt.Println(ages)
 
 
 
