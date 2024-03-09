@@ -11,7 +11,7 @@ func main(){
 	sort.Ints(ages)
 
 	fmt.Println(ages)
-index := sort.SearchInts(ages, 89)
+index := sort.SearchInts(ages,20)
 fmt.Println(index)
 
 }
